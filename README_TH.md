@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://putianan65.github.io/employee_task_tracker/"><strong>ดูหน้า Showcase</strong></a>
+  <a href="#หน้า-showcase"><strong>ดูตัวอย่างหน้า Showcase</strong></a>
   ·
   <a href="README.md">Read in English (EN)</a>
 </p>
@@ -22,9 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://putianan65.github.io/employee_task_tracker/">
-    <img src="docs/images/showcase-hero-th.webp" alt="หน้า Showcase ของ Employee Task Tracker" width="900"/>
-  </a>
+  <img src="docs/images/showcase-hero-th.webp" alt="หน้า Showcase ของ Employee Task Tracker" width="900"/>
 </p>
 
 ---
@@ -221,16 +219,29 @@ flutter run
 
 ## หน้า Showcase
 
-โฟลเดอร์ [`showcase/`](showcase) คือหน้า Portfolio ของโปรเจกต์นี้ — แสดงภาษาไทยเป็นค่าเริ่มต้น และสลับเป็นภาษาอังกฤษได้ สร้างด้วย React, TypeScript, Vite, Tailwind CSS และ lucide-react โดย [`.github/workflows/deploy-showcase.yml`](.github/workflows/deploy-showcase.yml) จะ deploy ขึ้น GitHub Pages ให้อัตโนมัติทุกครั้งที่ push เข้า `main` และมีการแก้ไขใน `showcase/`
+โฟลเดอร์ [`showcase/`](showcase) คือหน้า Portfolio ของโปรเจกต์นี้ — แสดงภาษาไทยเป็นค่าเริ่มต้น และสลับเป็นภาษาอังกฤษได้ สร้างด้วย React, TypeScript, Vite, Tailwind CSS และ lucide-react ส่วนวิดีโอพื้นหลังที่เลื่อนตามการ scroll กล่องกระจกฝ้า และแอนิเมชัน ดัดแปลงมาจากดีไซน์แลนดิ้งเพจ NovaAI (ดู[เครดิต](#เครดิต))
+
+> ภาพตัวอย่างด้านล่างแสดงพื้นหลังสำรองของหน้าเว็บ เมื่อเปิดในเบราว์เซอร์ พื้นหลังจะเป็นวิดีโอ 3D ที่เล่นไปข้างหน้าและถอยหลังตามการ scroll
+
+**ปัญหาที่โปรเจกต์นี้แก้**
+
+<img src="docs/images/showcase-why-th.webp" alt="ส่วนปัญหาที่โปรเจกต์นี้แก้ในหน้า Showcase" width="900"/>
+
+**วิธีใช้งาน — พร้อมภาพหน้าจอจริงของแอป**
+
+<img src="docs/images/showcase-walkthrough-th.webp" alt="ส่วนวิธีใช้งานทีละขั้นตอนในหน้า Showcase" width="900"/>
+
+**ฟีเจอร์ทั้งหมด — พร้อมภาพบนมือถือ**
+
+<img src="docs/images/showcase-features-th.webp" alt="ส่วนฟีเจอร์ทั้งหมดในหน้า Showcase" width="900"/>
+
+วิธีเปิดดูบนเครื่องของคุณ:
 
 ```bash
 cd showcase
 npm install
-npm run dev      # เปิดดูบนเครื่อง
-npm run build    # build สำหรับ production ไว้ที่ showcase/dist
+npm run dev      # แล้วเปิด URL ที่ขึ้นในหน้าจอ
 ```
-
-วิธีเปิดใช้งาน: ไปที่ **Settings → Pages** ของ Repository นี้ แล้วตั้ง **Source** เป็น **GitHub Actions**
 
 ---
 

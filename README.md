@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://putianan65.github.io/employee_task_tracker/?lang=en"><strong>Live showcase</strong></a>
+  <a href="#showcase-page"><strong>Showcase preview</strong></a>
   ·
   <a href="README_TH.md">อ่านภาษาไทย (TH)</a>
 </p>
@@ -22,9 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://putianan65.github.io/employee_task_tracker/?lang=en">
-    <img src="docs/images/showcase-hero-en.webp" alt="Showcase page for Employee Task Tracker" width="900"/>
-  </a>
+  <img src="docs/images/showcase-hero-en.webp" alt="Showcase page for Employee Task Tracker" width="900"/>
 </p>
 
 ---
@@ -221,16 +219,29 @@ flutter run
 
 ## Showcase Page
 
-The [`showcase/`](showcase) folder contains a portfolio landing page for this project — Thai by default, with an English toggle — built with React, TypeScript, Vite, Tailwind CSS and lucide-react. It is deployed to GitHub Pages by [`.github/workflows/deploy-showcase.yml`](.github/workflows/deploy-showcase.yml) on every push to `main` that touches `showcase/`.
+The [`showcase/`](showcase) folder contains a portfolio landing page for this project — Thai by default, with an English toggle — built with React, TypeScript, Vite, Tailwind CSS and lucide-react. Its scroll-driven video background, glass panels and fade-in animations are adapted from the NovaAI landing page design (see [Credits](#credits)).
+
+> These previews show the page's fallback background. In a browser, the background is an abstract 3D video that plays forward and backward as you scroll.
+
+**The problem it solves**
+
+<img src="docs/images/showcase-why-en.webp" alt="Showcase section: the problem the app solves" width="900"/>
+
+**How it works — with real app screenshots**
+
+<img src="docs/images/showcase-walkthrough-en.webp" alt="Showcase section: step-by-step walkthrough" width="900"/>
+
+**Feature index — with mobile screenshots**
+
+<img src="docs/images/showcase-features-en.webp" alt="Showcase section: feature index" width="900"/>
+
+To open it on your own machine:
 
 ```bash
 cd showcase
 npm install
-npm run dev      # local preview
-npm run build    # production build in showcase/dist
+npm run dev      # then open the local URL it prints
 ```
-
-To publish it, open **Settings → Pages** in this repository and set **Source** to **GitHub Actions**.
 
 ---
 
