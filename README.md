@@ -105,7 +105,7 @@ The same Flutter code adapts to small screens — the task detail switches from 
 | **Task Status Tracking** | Three statuses — `To Do` → `In Progress` → `Done` |
 | **Real-Time Sync** | Firestore streams for instant data updates across devices |
 | **In-App Notifications** | Notify task creators/admins when status changes occur |
-| **Task Chat & Comments** | Message thread per task with emoji reactions and file attachments |
+| **Task Chat & Comments** | Message thread per task with emoji reactions |
 | **Checklist** | Sub-task checklist within each task for detailed progress tracking |
 | **Map View** | Google Maps integration to visualize task locations (GIST NU campus) |
 | **Activity Log** | Track all actions performed on each task |
